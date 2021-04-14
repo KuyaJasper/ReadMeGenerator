@@ -30,11 +30,6 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'GithubProfile',
-        message:'What is your Github profile link??'
-    },
-    {
-        type: 'input',
         name: 'Email',
         message:'What is your Email address?'
     },

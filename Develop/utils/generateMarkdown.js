@@ -40,8 +40,6 @@ ${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
 
 ## Desctiption
 ${data.Description}
-${data.name}
-${data.date}
 
 ## Table of Contents
   * [Installation](#installation)
@@ -65,7 +63,7 @@ ${data.date}
 
 ## Questions
 
-    Reach out at:
+Reach out at:
   [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/${data.Github})
   [![Email]](mailto:${data.Email})
 
