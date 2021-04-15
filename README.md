@@ -1,6 +1,6 @@
 # Read Me Generator
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://kuyajasper.mit-license.org)
 
 # Desctiption
 For this application, we created a javascript file that created a markdown file. This was accomplished by using node.js and inquirer.
@@ -20,7 +20,7 @@ In your terminal, put in the command line node index.js
 
 # License
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://kuyajasper.mit-license.org)
 
 
 # Screen Recording
