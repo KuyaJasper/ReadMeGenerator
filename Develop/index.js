@@ -33,6 +33,26 @@ const questions = [
         name: 'Email',
         message:'What is your Email address?'
     },
+    {
+        type: 'input',
+        name: 'Installation',
+        message:'Describe any necessary program installations.'
+    },
+    {
+        type: 'input',
+        name: 'Usage',
+        message:'Input how to invoke application'
+    },
+    {
+        type: 'input',
+        name: 'Test',
+        message:'Input any test instructions'
+    },
+    {
+        type: 'input',
+        name: 'Contributions',
+        message:'Describe any contribution guidelines.'
+    },
 
 ];
 

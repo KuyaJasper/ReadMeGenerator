@@ -16,18 +16,18 @@ function renderLicenseLink(license) {
     return `(https://opensource.org/licenses/MIT)`
   }
   else if (license === "I don't want to use a license."){
-    return '';
+    return "";
   }
 };
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if(license) {
-    return `## License`;
+  if(license === "MIT") {
+    return `# License`
   }
-  else {
-    return ''
+  else if (license ===  "I don't want to use a license."){
+    return "";
   }
 };
 
@@ -38,34 +38,41 @@ function generateMarkdown(data) {
 
 ${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
 
-## Desctiption
+# Desctiption
 ${data.Description}
 
-## Table of Contents
-  * [Installation](#installation)
-  * Usage
-  * License
-  * Contributing
-  * Tests
-  * Questions
+# Table of Contents
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [License](#License)
+  * [Contributing](#Contributing)
+  * [Tests](#Tests)
+  * [Questions](#Questions)
 
-## Installation
+# Installation
+${data.Installation}
 
-## Usage
+# Usage
+${data.Usage}
 
-## Links
-    * Application URL
-    *Github Repository
+${renderLicenseSection(data.license)}
 
-## Contributions
+${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
 
-## Tests
 
-## Questions
+# Contributions
+${data.Contributions}
+
+# Tests
+${data.Test}
+
+# Questions
 
 Reach out at:
-  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/${data.Github})
-  [![Email]](mailto:${data.Email})
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/${data.Github})
+
+[![Email badge](https://img.shields.io/badge/Email-${data.Email}-red.svg)](mailto:${data.Email})
 
 `);
 
