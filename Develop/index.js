@@ -21,7 +21,7 @@ const questions = [
         name: 'license',
         message:'Choose a Lincese you would like to use, then press Enter.',
 
-        choices: ["MIT", "I don't want to use a license."]
+        choices: ["MIT","Apache 2.0","Mozilla Public License 2.0", "I don't want to use a license."]
     },
     {
         type: 'input',
