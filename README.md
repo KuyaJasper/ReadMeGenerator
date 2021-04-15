@@ -1,7 +1,5 @@
 # Read Me Generator
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://kuyajasper.mit-license.org)
-
 # Desctiption
 For this application, we created a javascript file that created a markdown file. This was accomplished by using node.js and inquirer.
 
@@ -9,23 +7,38 @@ For this application, we created a javascript file that created a markdown file.
   * [Installation](#Installation)
   * [Usage](#Usage)
   * [License](#License)
-  * [Screen Recording](#Screen_Recording)
+  * [Screenshot](#Screenshot)
   * [Questions](#Questions)
 
 # Installation
-To install invokve npm i 
+This project was created using 'node.js' Make sure to have node.js installed before moving forward.
+
+To learn how to install Node, [Click Here](https://nodejs.org/en/download/package-manager/).
+
+To install necessary files, make sure your directory is changed to the 'Develop' folder.
+
+Open up Terminal and type in the following command:
+
+```bash
+npm i 
+```
+The package.json files included in this repository will let you install the necessary information to run the application.
 
 # Usage
-In your terminal, put in the command line node index.js
+To run the application, use Terminal to open the 'Develop' folder followed by:
 
+```bash
+node index.js
+```
+Follow the prompts, and the markdown file should be created in your 'utils' folder when finished!
 # License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://kuyajasper.mit-license.org)
 
 
-# Screen Recording
+# Screenshot
 
-
+![ScreenshotRecording](./Samples/ScreenRecording.gif)
 
 # Questions
 
