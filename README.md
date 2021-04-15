@@ -15,12 +15,19 @@ This project was created using 'node.js' Make sure to have node.js installed bef
 
 To learn how to install Node, [Click Here](https://nodejs.org/en/download/package-manager/).
 
+
+Next you will need to install inquirer. To do so type in the following commands into your terminal.
+
+```bash
+npm i inquirer
+```
+
 To install necessary files, make sure your directory is changed to the 'Develop' folder.
 
 Open up Terminal and type in the following command:
 
 ```bash
-npm i 
+npm i install
 ```
 The package.json files included in this repository will let you install the necessary information to run the application.
 
